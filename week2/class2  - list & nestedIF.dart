@@ -56,4 +56,24 @@ void main() {
     'Huzaifa',
   ]; // only string data can be assigned in this list.
   print(stname);
+
+  List st = [
+    {'Huzaifa'},
+    {'Asim'},
+    {'Fardeen', 'Qadir'}
+  ];
+  print(st);
+  print(st.length);
+
+  List stu = [
+    ['HUzaifa', 'Fardeen'],
+    ['Asim'],
+    ['Qadir', 'Zeeshan'],
+    'Uzair',
+    {
+      ['Asad', 'anas'],
+    },
+  ];
+  print(stu);
+  print(stu.length);
 }
