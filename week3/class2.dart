@@ -4,16 +4,16 @@ List evenNumbers = [];
 List oddNumbers = [];
 
 void main() {
-  // for (int a in numbers) {
-  //   if (a % 2 == 0) {
-  //     evenNumbers.add(a);
-  //   } else {
-  //     oddNumbers.add(a);
-  //   }
-  // }
+  for (int a in numbers) {
+    if (a % 2 == 0) {
+      evenNumbers.add(a);
+    } else {
+      oddNumbers.add(a);
+    }
+  }
 
-  // print(evenNumbers);
-  // print(oddNumbers);
+  print(evenNumbers);
+  print(oddNumbers);
 
   for (int a = 0; a < numbers.length; a++) {
     if (numbers[a] % 2 == 0) {
